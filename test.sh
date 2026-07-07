@@ -1,0 +1,1 @@
+java -cp "./lib/*;bin" org.testng.TestNG ./automatedScripts/dashTst/dashTst_sh.xml

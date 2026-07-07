@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"-->
+<suite name="DASH Test : Framework Test">
+<!--DAST_TEST : Framework Smoke Test-->
+<test name="DashTest" verbose="2">
+<parameter name="webBrowser" value="CHROME"/>
+<parameter name="scenarioFilePath" value="dashTst\dashTst.xls"/>
+<parameter name="testCaseID" value="DashTest"/>
+<parameter name="testCaseName" value="DAST_TEST : Framework Smoke Test"/>
+<parameter name="objectFilePath" value="dashTst\dashTst.properties"/>
+<classes>
+<class name="dASH_Main.DASH"/>
+</classes>
+</test>
+</suite>

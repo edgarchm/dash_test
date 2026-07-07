@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:48]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Loading CHROME</strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Executing Test Case (Background): </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<mark>"Navigate to the URL and verify page is loaded"</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>1a: <i>GIVEN I Navigate to the TANGO Apply Onboarding URL</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to -> <br><mark>https://associate-stg.employbridge.works/SignIn</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>1b: <i>Maximize Window</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Setting Window Size to MAXIMUM Screen Size.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>1c: <i>Verify Main WebPage Loaded</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Current text is: <b>Log in</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>1d: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg'> <img src='C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:51]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Executing Test Case (QAAC-001_TGO-1041_1042): </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<mark>"Create Account_Verify valid email and password (meeting requirements) must be entered to create account"</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>2a: <i>AND I click on the "Create account" link</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: <mark>Create account</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>2b: <i>Verify Create Account Page Loaded</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Current text is: <b>Create account</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>2c: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3a: <i>WHEN Enter Email Address in the "Email address" TextBox</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered: : <mark>eb.aio.user001@gmail.com</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3b: <i>AND Enter Mobile Number in the "Mobile number" TextBox</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered: : <mark>2135631376</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3c: <i>AND Enter Password in the "Password" TextBox</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered: Password Entered: XXXXX<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3d: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>4a: <i>Scroll down</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing  <b>FULL scroll  <b>VERTICAL.</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>4b: <i>THEN Verify if the Create Account button is enabled</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[The Component is: <mark>ENABLED</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>4c: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>5.0: <i>AND I click on the "Log in" link</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: <mark>Log in</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:54]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Executing Test Case (QAAC-004_TGO-1036): </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<mark>"Sign In_Verify candidate redirected to Dashboard after entering email and password for sign in"</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>1c: <i>And Verify Page Loaded</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Current text is: <b>Log in</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>2a: <i>WHEN Enter Email Address in Input Text Box</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered: : <mark>edgar.chavez@employbridge.com</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>2b: <i>And Enter Password in Input Text Box</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>----------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered: Password Entered: XXXXX<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>2c: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3a: <i>And Press the Login button</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3b: <i>And Verify Page Loaded</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>3c: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:58]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Executing Test Case (QAAC-001_TGO-1075): </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<mark>"Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed"</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>4a: <i>And  Click on the Finish Later radio</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>4b: <i>Take a Screenshot</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg' height='100' width='100'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step Number <strong>7.0: <i>And Close the browser</i></strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>==================================================<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>**********************************************************************<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-20T22:38:47Z" name="QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path" finished-at="2021-12-20T22:38:58Z" duration-ms="11476">
+    <groups>
+    </groups>
+    <test started-at="2021-12-20T22:38:47Z" name="Background" finished-at="2021-12-20T22:38:51Z" duration-ms="3937">
+      <class name="dASH_Main.DASH">
+        <test-method signature="dash_TestExecutionControl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dASH_Main.DASH@42d8062c]" started-at="2021-12-20T16:38:47Z" name="dash_TestExecutionControl" finished-at="2021-12-20T16:38:51Z" duration-ms="3930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employBridge\TangoTst.xls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Background]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Navigate to the URL and verify page is loaded]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[employBridge\tangoStg.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:48]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Loading CHROME</strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Executing Test Case (Background): </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<mark>"Navigate to the URL and verify page is loaded"</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>1a: <i>GIVEN I Navigate to the TANGO Apply Onboarding URL</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to -> <br><mark>https://associate-stg.employbridge.works/SignIn</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>1b: <i>Maximize Window</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Setting Window Size to MAXIMUM Screen Size.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>1c: <i>Verify Main WebPage Loaded</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Current text is: <b>Log in</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>1d: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg'> <img src='C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dash_TestExecutionControl -->
+      </class> <!-- dASH_Main.DASH -->
+    </test> <!-- Background -->
+    <test started-at="2021-12-20T22:38:51Z" name="QAAC-001_TGO-1041_1042" finished-at="2021-12-20T22:38:54Z" duration-ms="3543">
+      <class name="dASH_Main.DASH">
+        <test-method signature="dash_TestExecutionControl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dASH_Main.DASH@52f759d7]" started-at="2021-12-20T16:38:51Z" name="dash_TestExecutionControl" finished-at="2021-12-20T16:38:54Z" duration-ms="3542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employBridge\TangoTst.xls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QAAC-001_TGO-1041_1042]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Create Account_Verify valid email and password (meeting requirements) must be entered to create account]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[employBridge\tangoStg.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:51]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Executing Test Case (QAAC-001_TGO-1041_1042): </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<mark>"Create Account_Verify valid email and password (meeting requirements) must be entered to create account"</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>2a: <i>AND I click on the "Create account" link</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: <mark>Create account</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>2b: <i>Verify Create Account Page Loaded</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Current text is: <b>Create account</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>2c: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3a: <i>WHEN Enter Email Address in the "Email address" TextBox</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered: : <mark>eb.aio.user001@gmail.com</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3b: <i>AND Enter Mobile Number in the "Mobile number" TextBox</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered: : <mark>2135631376</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3c: <i>AND Enter Password in the "Password" TextBox</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered: Password Entered: XXXXX<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3d: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>4a: <i>Scroll down</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Executing  <b>FULL scroll  <b>VERTICAL.</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>4b: <i>THEN Verify if the Create Account button is enabled</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[The Component is: <mark>ENABLED</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>4c: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>5.0: <i>AND I click on the "Log in" link</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: <mark>Log in</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dash_TestExecutionControl -->
+      </class> <!-- dASH_Main.DASH -->
+    </test> <!-- QAAC-001_TGO-1041_1042 -->
+    <test started-at="2021-12-20T22:38:54Z" name="QAAC-004_TGO-1036" finished-at="2021-12-20T22:38:58Z" duration-ms="3574">
+      <class name="dASH_Main.DASH">
+        <test-method signature="dash_TestExecutionControl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dASH_Main.DASH@33723e30]" started-at="2021-12-20T16:38:54Z" name="dash_TestExecutionControl" finished-at="2021-12-20T16:38:58Z" duration-ms="3573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employBridge\TangoTst.xls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QAAC-004_TGO-1036]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sign In_Verify candidate redirected to Dashboard after entering email and password for sign in]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[employBridge\tangoStg.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:54]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Executing Test Case (QAAC-004_TGO-1036): </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<mark>"Sign In_Verify candidate redirected to Dashboard after entering email and password for sign in"</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>1c: <i>And Verify Page Loaded</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Current text is: <b>Log in</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>2a: <i>WHEN Enter Email Address in Input Text Box</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered: : <mark>edgar.chavez@employbridge.com</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>2b: <i>And Enter Password in Input Text Box</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>----------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered: Password Entered: XXXXX<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>2c: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3a: <i>And Press the Login button</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3b: <i>And Verify Page Loaded</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>3c: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dash_TestExecutionControl -->
+      </class> <!-- dASH_Main.DASH -->
+    </test> <!-- QAAC-004_TGO-1036 -->
+    <test started-at="2021-12-20T22:38:58Z" name="QAAC-001_TGO-1075" finished-at="2021-12-20T22:38:58Z" duration-ms="353">
+      <class name="dASH_Main.DASH">
+        <test-method signature="dash_TestExecutionControl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dASH_Main.DASH@8e24743]" started-at="2021-12-20T16:38:58Z" name="dash_TestExecutionControl" finished-at="2021-12-20T16:38:58Z" duration-ms="353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employBridge\TangoTst.xls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QAAC-001_TGO-1075]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[employBridge\tangoStg.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:58]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Executing Test Case (QAAC-001_TGO-1075): </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<mark>"Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed"</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Starting Iteration #1</mark>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>4a: <i>And  Click on the Finish Later radio</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>4b: <i>Take a Screenshot</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg' height='100' width='100'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step Number <strong>7.0: <i>And Close the browser</i></strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><mark>Completed Iteration #1</mark><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>==================================================<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>**********************************************************************<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dash_TestExecutionControl -->
+      </class> <!-- dASH_Main.DASH -->
+    </test> <!-- QAAC-001_TGO-1075 -->
+  </suite> <!-- QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path -->
+</testng-results>

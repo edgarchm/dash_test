@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path]">
+  <parameter name="scenarioFilePath" value="employBridge\TangoTst.xls"/>
+  <parameter name="objectFilePath" value="employBridge\tangoStg.properties"/>
+  <parameter name="webBrowser" value="SAME"/>
+  <parameter name="testCaseName" value="Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed"/>
+  <parameter name="testCaseID" value="QAAC-001_TGO-1075"/>
+  <test name="QAAC-001_TGO-1075(failed)">
+    <parameter name="scenarioFilePath" value="employBridge\TangoTst.xls"/>
+    <parameter name="objectFilePath" value="employBridge\tangoStg.properties"/>
+    <parameter name="webBrowser" value="SAME"/>
+    <parameter name="testCaseName" value="Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed"/>
+    <parameter name="testCaseID" value="QAAC-001_TGO-1075"/>
+    <classes>
+      <class name="dASH_Main.DASH">
+        <methods>
+          <include name="dash_TestExecutionControl" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- dASH_Main.DASH -->
+    </classes>
+  </test> <!-- QAAC-001_TGO-1075(failed) -->
+</suite> <!-- Failed suite [QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path] -->

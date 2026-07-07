@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"-->
+<suite name="TestFrame">
+<!--Testing Frames against Guru99 page-->
+<test name="TestFrame" verbose="2">
+<parameter name="webBrowser" value="HEADLESSCHROME"/>
+<parameter name="scenarioFilePath" value="dashTst\frameTest.xls"/>
+<parameter name="testCaseID" value="testb"/>
+<parameter name="testCaseName" value="Testing Frames against Guru99 page"/>
+<parameter name="objectFilePath" value="dashTst\test.properties"/>
+<classes>
+<class name="dASH_Main.DASH"/>
+</classes>
+</test>
+</suite>

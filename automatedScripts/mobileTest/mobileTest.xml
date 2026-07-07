@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"-->
+<suite name="Mobile Test Using Mobile Test Me Website Mobile Emulator">
+  <!--Mobile Test-->
+  <test name="mobileTest" verbose="2">
+    <parameter name="webBrowser" value="CHROME"/>
+    <parameter name="scenarioFilePath" value="mobileTest\mobileTest.xls"/>
+    <parameter name="testCaseID" value="mobileTest"/>
+    <parameter name="testCaseName" value="Mobile Test"/>
+    <parameter name="objectFilePath" value="mobileTest\mobileTest.properties"/>
+    <classes>
+      <class name="dASH_Main.DASH"/>
+    </classes>
+  </test>
+</suite>

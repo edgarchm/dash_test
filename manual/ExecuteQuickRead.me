@@ -1,0 +1,22 @@
+*******************************************************************
+* DASH TEST - Automation Test Accelerator
+* By: Edgar Chavez, May 2019
+*-----------------------------------------------------------------
+* Executing DASH TEST Scripts from the prompt:
+*******************************************************************
+DASH TEST includes a batch file that simplifies the syntax to execute scripts from the command line.
+There is a batch file for MSDOS based OS and another for UNIX/LINUX based OS. However, if that doesn't convince you, you can also execute your test scripts using a direct JAVA statement.
+
+MSDOS based OS.
+BATCH Mode: dash.bat <[pathToConfigFile\]configFileName.xml>
+Example: dash.bat dashTst\dashTst.xml
+
+JAVA Sentence: java –cp "lib\*;bin" org.testng.TestNG automatedScripts\<[pathToConfigFile\]configFileName.xml>
+Example: java –cp "lib\*;bin" org.testng.TestNG automatedScripts\dashTst\dashTst.xml
+
+Unix/Linux based OS.
+BATCH Mode: ./dash.sh <[pathToConfigFile/]configFileName.xml>
+Example: ./dash.sh dashTst/dashTst.xml
+
+JAVA Sentence: java –cp "./lib/*;bin" org.testng.TestNG ./automatedScripts/<[pathToConfigFile/]configFileName.xml>
+Example: java –cp "./lib/*;bin" org.testng.TestNG ./automatedScripts/dashTst/dashTst.xml

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link">
+              <span class="suite-name border-passed">QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span>C:\DASH_TEST\automatedScripts\employBridge\QAAT_001_TGO-2464.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="hide-methods passed suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path"> (hide)</a> <!-- hide-methods passed suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path -->
+                      <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="show-methods passed suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path"> (show)</a> <!-- show-methods passed suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path -->
+                    </span>
+                    <div class="method-list-content passed suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" title="dASH_Main.DASH" class="method navigator-link" hash-for-method="dash_TestExecutionControl(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employ...)">dash_TestExecutionControl(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employ...)</a> <!-- method navigator-link -->
+                      </span>
+                      
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" title="dASH_Main.DASH" class="method navigator-link" hash-for-method="dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and passw...)">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and passw...)</a> <!-- method navigator-link -->
+                      </span>
+                      
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" title="dASH_Main.DASH" class="method navigator-link" hash-for-method="dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard...)">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard...)</a> <!-- method navigator-link -->
+                      </span>
+                      
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" title="dASH_Main.DASH" class="method navigator-link" hash-for-method="dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candida...)">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candida...)</a> <!-- method navigator-link -->
+                      </span>
+                      
+                    </div> <!-- method-list-content passed suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path">
+          <div class="suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dASH_Main.DASH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dash_TestExecutionControl(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employ...)">
+                  </a> <!-- dash_TestExecutionControl(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employ...) -->
+                  <span class="method-name">dash_TestExecutionControl</span>
+                  <span class="parameters">(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employBridge\tangoStg.properties)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and passw...)">
+                  </a> <!-- dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and passw...) -->
+                  <span class="method-name">dash_TestExecutionControl</span>
+                  <span class="parameters">(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and password (meeting requirements) must be entered to create account, employBridge\tangoStg.properties)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard...)">
+                  </a> <!-- dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard...) -->
+                  <span class="method-name">dash_TestExecutionControl</span>
+                  <span class="parameters">(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard after entering email and password for sign in, employBridge\tangoStg.properties)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candida...)">
+                  </a> <!-- dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candida...) -->
+                  <span class="method-name">dash_TestExecutionControl</span>
+                  <span class="parameters">(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed, employBridge\tangoStg.properties)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path-class-passed -->
+        </div> <!-- panel QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path -->
+        <div panel-name="test-xml-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\DASH_TEST\automatedScripts\employBridge\QAAT_001_TGO-2464.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path&quot;&gt;
+  &lt;test name=&quot;Background&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;scenarioFilePath&quot; value=&quot;employBridge\TangoTst.xls&quot;/&gt;
+    &lt;parameter name=&quot;objectFilePath&quot; value=&quot;employBridge\tangoStg.properties&quot;/&gt;
+    &lt;parameter name=&quot;webBrowser&quot; value=&quot;CHROME&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Navigate to the URL and verify page is loaded&quot;/&gt;
+    &lt;parameter name=&quot;testCaseID&quot; value=&quot;Background&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dASH_Main.DASH&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Background --&gt;
+  &lt;test name=&quot;QAAC-001_TGO-1041_1042&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;scenarioFilePath&quot; value=&quot;employBridge\TangoTst.xls&quot;/&gt;
+    &lt;parameter name=&quot;objectFilePath&quot; value=&quot;employBridge\tangoStg.properties&quot;/&gt;
+    &lt;parameter name=&quot;webBrowser&quot; value=&quot;SAME&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Create Account_Verify valid email and password (meeting requirements) must be entered to create account&quot;/&gt;
+    &lt;parameter name=&quot;testCaseID&quot; value=&quot;QAAC-001_TGO-1041_1042&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dASH_Main.DASH&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QAAC-001_TGO-1041_1042 --&gt;
+  &lt;test name=&quot;QAAC-004_TGO-1036&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;scenarioFilePath&quot; value=&quot;employBridge\TangoTst.xls&quot;/&gt;
+    &lt;parameter name=&quot;objectFilePath&quot; value=&quot;employBridge\tangoStg.properties&quot;/&gt;
+    &lt;parameter name=&quot;webBrowser&quot; value=&quot;SAME&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Sign In_Verify candidate redirected to Dashboard after entering email and password for sign in&quot;/&gt;
+    &lt;parameter name=&quot;testCaseID&quot; value=&quot;QAAC-004_TGO-1036&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dASH_Main.DASH&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QAAC-004_TGO-1036 --&gt;
+  &lt;test name=&quot;QAAC-001_TGO-1075&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;scenarioFilePath&quot; value=&quot;employBridge\TangoTst.xls&quot;/&gt;
+    &lt;parameter name=&quot;objectFilePath&quot; value=&quot;employBridge\tangoStg.properties&quot;/&gt;
+    &lt;parameter name=&quot;webBrowser&quot; value=&quot;SAME&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed&quot;/&gt;
+    &lt;parameter name=&quot;testCaseID&quot; value=&quot;QAAC-001_TGO-1075&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dASH_Main.DASH&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QAAC-001_TGO-1075 --&gt;
+&lt;/suite&gt; &lt;!-- QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Background (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QAAC-001_TGO-1041_1042 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QAAC-004_TGO-1036 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QAAC-001_TGO-1075 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path');
+function tableData_QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dash_TestExecutionControl')
+data.setCell(0, 2, 'dASH_Main.DASH')
+data.setCell(0, 3, 3930);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dash_TestExecutionControl')
+data.setCell(1, 2, 'dASH_Main.DASH')
+data.setCell(1, 3, 3573);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dash_TestExecutionControl')
+data.setCell(2, 2, 'dASH_Main.DASH')
+data.setCell(2, 3, 3542);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dash_TestExecutionControl')
+data.setCell(3, 2, 'dASH_Main.DASH')
+data.setCell(3, 3, 353);
+window.suiteTableData['QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path']= { tableData: data, tableDiv: 'times-div-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path">
+              </div> <!-- times-div-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QAAT_001_TGO-2464: SPIKE/POC: Automated QA UI happy path</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dash_TestExecutionControl(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:48</span>
+                <span class="reporter-method-output"><br><strong>Loading CHROME</strong></span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br><strong>Executing Test Case (Background): </strong></span>
+                <span class="reporter-method-output"><mark>"Navigate to the URL and verify page is loaded"</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Starting Iteration #1</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>1a: <i>GIVEN I Navigate to the TANGO Apply Onboarding URL</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Navigate to -> <br><mark>https://associate-stg.employbridge.works/SignIn</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>1b: <i>Maximize Window</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Setting Window Size to MAXIMUM Screen Size.<br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>1c: <i>Verify Main WebPage Loaded</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Current text is: <b>Log in</b></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>1d: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg'> <img src='C:\DASH_TEST\test-output\sshots\Background\SS001d.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Completed Iteration #1</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and passw...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:51</span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br><strong>Executing Test Case (QAAC-001_TGO-1041_1042): </strong></span>
+                <span class="reporter-method-output"><mark>"Create Account_Verify valid email and password (meeting requirements) must be entered to create account"</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Starting Iteration #1</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>2a: <i>AND I click on the "Create account" link</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Clicked on: <mark>Create account</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>2b: <i>Verify Create Account Page Loaded</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Current text is: <b>Create account</b></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>2c: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_02c.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3a: <i>WHEN Enter Email Address in the "Email address" TextBox</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Data Entered: : <mark>eb.aio.user001@gmail.com</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3b: <i>AND Enter Mobile Number in the "Mobile number" TextBox</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Data Entered: : <mark>2135631376</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3c: <i>AND Enter Password in the "Password" TextBox</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Data Entered: Password Entered: XXXXX<br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3d: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_03d.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>4a: <i>Scroll down</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Executing  <b>FULL scroll  <b>VERTICAL.</b><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>4b: <i>THEN Verify if the Create Account button is enabled</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">The Component is: <mark>ENABLED</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>4c: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1041_1042\SS1041_04c.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>5.0: <i>AND I click on the "Log in" link</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Clicked on: <mark>Log in</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Completed Iteration #1</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:54</span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br><strong>Executing Test Case (QAAC-004_TGO-1036): </strong></span>
+                <span class="reporter-method-output"><mark>"Sign In_Verify candidate redirected to Dashboard after entering email and password for sign in"</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Starting Iteration #1</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>1c: <i>And Verify Page Loaded</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Current text is: <b>Log in</b></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>2a: <i>WHEN Enter Email Address in Input Text Box</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Data Entered: : <mark>edgar.chavez@employbridge.com</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>2b: <i>And Enter Password in Input Text Box</i></strong><br></span>
+                <span class="reporter-method-output"><br>----------<br></span>
+                <span class="reporter-method-output">Data Entered: Password Entered: XXXXX<br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>2c: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_02c.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3a: <i>And Press the Login button</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3b: <i>And Verify Page Loaded</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>3c: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-004_TGO-1036\SS1036_03c.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Completed Iteration #1</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candida...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br>DASH is a CopyRight property of:<br>Edgar Chavez 2015 (PRE000008332).<br>Designed and Developed by Edgar Chavez.<br>DASH TEST... DASHING!<br>Test Executed on: 2021/12/20 16:38:58</span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+                <span class="reporter-method-output"><br><strong>Executing Test Case (QAAC-001_TGO-1075): </strong></span>
+                <span class="reporter-method-output"><mark>"Dashboard Job Readiness_Verify tasks the candidate needs to complete are displayed"</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Starting Iteration #1</mark></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>4a: <i>And  Click on the Finish Later radio</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>4b: <i>Take a Screenshot</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br>Screenshot located at: <br>C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg<br></span>
+                <span class="reporter-method-output"><a href='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg'> <img src='C:\DASH_TEST\test-output\sshots\QAAC-001_TGO-1075\SS1036_04b.jpg' height='100' width='100'/> </a><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>Step Number <strong>7.0: <i>And Close the browser</i></strong><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br><mark>Completed Iteration #1</mark><br></span>
+                <span class="reporter-method-output"><br>==================================================<br></span>
+                <span class="reporter-method-output"><br>**********************************************************************<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QAAT_001_TGO-2464:_SPIKE/POC:_Automated_QA_UI_happy_path" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dASH_Main.DASH</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dash_TestExecutionControl(CHROME, employBridge\TangoTst.xls, Background, Navigate to the URL and verify page is loaded, employ...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1041_1042, Create Account_Verify valid email and passw...)</span>
+                <span class="method-start">3966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-004_TGO-1036, Sign In_Verify candidate redirected to Dashboard...)</span>
+                <span class="method-start">7530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dash_TestExecutionControl(SAME, employBridge\TangoTst.xls, QAAC-001_TGO-1075, Dashboard Job Readiness_Verify tasks the candida...)</span>
+                <span class="method-start">11117 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
